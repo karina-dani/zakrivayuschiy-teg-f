@@ -107,7 +107,7 @@
   position: absolute;
   display: inline-block;
   animation: button-pointer 0.5s ease-in-out infinite alternate;
-  inset-inline-end: 90px;
+  inset-inline-start: -18px;
   block-size: 14px;
   inline-size: 14px;
 }
@@ -166,6 +166,7 @@
 }
 
 @supports ((text-stroke: 1px #fff) or (-webkit-text-stroke: 1px #fff)) {
+
   .card__image-label {
     text-shadow: none;
     -webkit-text-stroke: 1px var(--shadow-color);
@@ -459,11 +460,11 @@
 @keyframes button-pointer {
 
   from {
-    inset-inline-end: 90px;
+    inset-inline-start: -18px;
   }
 
   to {
-    inset-inline-end: 86px;
+    inset-inline-start: -14px;
   }
 }
 
