@@ -80,7 +80,7 @@
   line-height: normal;
   text-transform: uppercase;
   background-color: transparent;
-  cursor: pointer;  
+  cursor: pointer;
 }
 
 .theme-menu__button::after {
@@ -164,7 +164,6 @@
 }
 
 @supports ((text-stroke: 1px #fff) or (-webkit-text-stroke: 1px #fff)) {
-
   .card__image-label {
     text-shadow: none;
     -webkit-text-stroke: 1px var(--shadow-color);
@@ -202,7 +201,7 @@
 }
 
 .card__image-pic_filter_mixed {
-  filter: sepia(0.8) contrast(30%) brightness(120%)
+  filter: sepia(0.8) contrast(30%) brightness(120%);
 }
 
 .card__image-pic_filter_grayscale {
@@ -410,7 +409,6 @@
 /* ----------------------медиазапросы----------------------- */
 
 @media (width <= 375px) {
-
   .header {
     inline-size: 100%;
   }
