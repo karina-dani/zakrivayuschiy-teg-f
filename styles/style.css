@@ -357,11 +357,6 @@
 
 /* ----------------------состояния------------------------ */
 
-.header__logo:focus,
-.header__logo:focus-visible {
-  outline: none;
-}
-
 .theme-menu__button:focus {
   outline: none;
 }
